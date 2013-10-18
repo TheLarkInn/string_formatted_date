@@ -1,9 +1,7 @@
 string_formatted_date
 ==============
 
-A simple gem for easy date formatting!
-
-
+A simple gem for easy date formatting! This gem adds a .formatted method to class Date which allows for easier date object formatting for strings.
 
 ##Installation: 
 
@@ -16,6 +14,8 @@ gem install 'string_formatted_date'
 
 require 'string_formatted_date'
 require 'date'
+
+
 
 some_date = DateTime.now.to_date
 => #<Date: 2013-10-18 ((2456584j,0s,0n),+0s,2299161j)> 
